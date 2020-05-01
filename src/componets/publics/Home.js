@@ -11,13 +11,19 @@ class Home extends Component {
 <div >
   <div>
   <section id="section1" className="" style={{ marginTop: 80 + "px" }}>
-         
+  <div className="leftside">
+            
+            <img 
+              src="https://i2.wp.com/blog.fundingsocieties.com/wp-content/uploads/2018/10/Blog-Image-03.png?fit=1200%2C631&ssl=1"
+              alt=""
+            />
+          </div>
           
           <div className="rightside rollIn animated wow animated">
             <div className="container ">
            
-            <h4> Welcome To Our Studio!</h4>
-              <h1>Corporation Ticket Management</h1>
+            <h4 className="purl" > Welcome To Our Studio!</h4>
+              <h1 className="purl">Corporation Ticket Management</h1>
            
               <a href="/Home#product" className="btn btn-success welcome">
               Tell Me More
@@ -25,13 +31,7 @@ class Home extends Component {
              
             </div>
           </div>
-          <div className="leftside">
-            
-            <img style={{ height : '400px',width : '705px' }}
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Fandango_2014.svg/1200px-Fandango_2014.svg.png"
-              alt=""
-            />
-          </div>
+     
         </section>
   </div>
 
@@ -66,17 +66,20 @@ Most forms of charity are concerned with providing basic necessities such as foo
 
       
 
-        <section >
+        <section id="section2">
         <div className="row">
               <div className="col-lg-6 wow fadeInLeft animated">
               
                 <div className=" address clearfix address1">
-                  <h1>Address</h1>
-                  <p className="address1">
-                    We are trying to connect small and large farmers to sell
-                    their quality product to the diffent places.
-                  </p>
-                  <p className="address1">If any suggestions or tips let us know</p>
+                 
+                 
+            
+            <img 
+              src="https://www.comsyscx.com/site/wp-content/uploads/2019/04/contact-page-banner.png"
+              alt="" style={{ height: '350px',width:'600px' }}
+            />
+ 
+                  
                 </div>
                 <ul className="social-link">
                   <li >
@@ -179,17 +182,6 @@ Most forms of charity are concerned with providing basic necessities such as foo
         {/*  */}
         {/*  */}
 
-        <section className="subscribe-section">
-  <div className="subscribe-form">
-  <form action="#" className="subscribe-form">
-    <label for="text"className="clr" >Join our exclusive newsletter</label>
-    <input type="email" name="email" className="clr" placeholder="Enter your email address"/>
-    <span className="submit">
-      <input type="submit" value="subscribe"/> <a  className="clr" >Subscribe</a>
-    </span> 
-  </form>
-</div>
-</section>
         {/*  */}
         {/*  */}
       </Fragment>

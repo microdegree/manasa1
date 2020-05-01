@@ -146,28 +146,17 @@ export default class Navbar extends Component {
                   Home
                 </a>
               </li>
-             
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Complaints
-                </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="/vendor/addDonors">
+              <li className="nav-item">
+              <a className="nav-link" href="/vendor/addDonors">
                     Add Complaints
                   </a>
-                  <a className="dropdown-item" href="/vendor/ShowDonors">
-                    Show Complaints
-                  </a>
-                </div>
               </li>
+              <li className="nav-item">
+              <a className="nav-link" href="/vendor/ShowDonors">
+                    Modify Complaints
+                  </a>
+              </li>
+             
             </ul>
           </div>
 

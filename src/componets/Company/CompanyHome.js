@@ -24,10 +24,11 @@ class MainHome extends Component {
             </div>
           </div>
         </section>  */}
+ 
+<section class="counts section2 mt-5" >
+        <div className=" container-fluid mt-5" id="product" >
 
-<section class="counts section-bg mt-5">
-        <div className=" container-fluid mt-5" id="product">
-          <h2> List Of Complaints</h2>
+          <h2 className="text-dark1"> List Of Complaints</h2>
 
           <div className="row">
             <div className="col-lg-3 col-md-3 col-sm-3   animated fadeInUp wow animated">
@@ -39,10 +40,10 @@ class MainHome extends Component {
                 />
         <div className="product-bottom text-center">
                
-               <h3 className="text-dark">Complaints Name</h3>
-               <h3 className="text-dark">Department</h3>
-               <h4 className="text-dark">Ward Number</h4>
-               <h4 className="text-dark">Facing Issue</h4>
+               <h3 className="text-dark1">Complaints Name</h3>
+               <h3 className="text-dark1">Department</h3>
+               <h4 className="text-dark1">Ward Number</h4>
+               <h4 className="text-dark1">Facing Issue</h4>
                <button type="submit" className="btn input-btn "title="Quick Shop"
                     data-toggle="modal"
                     data-target="#quickModel">
@@ -83,10 +84,10 @@ class MainHome extends Component {
                   alt=""
                 />
         <div className="product-bottom text-center">
-        <h3 className="text-dark">Complaints Name</h3>
-               <h3 className="text-dark">Department</h3>
-               <h4 className="text-dark">Ward Number</h4>
-               <h4 className="text-dark">Facing Issue</h4>
+        <h3 className="text-dark1">Complaints Name</h3>
+               <h3 className="text-dark1">Department</h3>
+               <h4 className="text-dark1">Ward Number</h4>
+               <h4 className="text-dark1">Facing Issue</h4>
                <button type="submit" className="btn input-btn "title="Quick Shop"
                     data-toggle="modal"
                     data-target="#quickModel">
@@ -130,10 +131,10 @@ class MainHome extends Component {
                 />
         <div className="product-bottom text-center">
                
-        <h3 className="text-dark">Complaints Name</h3>
-               <h3 className="text-dark">Department</h3>
-               <h4 className="text-dark">Ward Number</h4>
-               <h4 className="text-dark">Facing Issue</h4>
+        <h3 className="text-dark1">Complaints Name</h3>
+               <h3 className="text-dark1">Department</h3>
+               <h4 className="text-dark1">Ward Number</h4>
+               <h4 className="text-dark1">Facing Issue</h4>
                <button type="submit" className="btn input-btn "title="Quick Shop"
                     data-toggle="modal"
                     data-target="#quickModel">
@@ -177,10 +178,10 @@ class MainHome extends Component {
                 />
         <div className="product-bottom text-center">
                
-        <h3 className="text-dark">Complaints Name</h3>
-               <h3 className="text-dark">Department</h3>
-               <h4 className="text-dark">Ward Number</h4>
-               <h4 className="text-dark">Facing Issue</h4>
+        <h3 className="text-dark1">Complaints Name</h3>
+               <h3 className="text-dark1">Department</h3>
+               <h4 className="text-dark1">Ward Number</h4>
+               <h4 className="text-dark1">Facing Issue</h4>
                <button type="submit" className="btn input-btn "title="Quick Shop"
                     data-toggle="modal"
                     data-target="#quickModel">
@@ -223,10 +224,10 @@ class MainHome extends Component {
                 />
         <div className="product-bottom text-center">
                
-        <h3 className="text-dark">Complaints Name</h3>
-               <h3 className="text-dark">Department</h3>
-               <h4 className="text-dark">Ward Number</h4>
-               <h4 className="text-dark">Facing Issue</h4>
+        <h3 className="text-dark1">Complaints Name</h3>
+               <h3 className="text-dark1">Department</h3>
+               <h4 className="text-dark1">Ward Number</h4>
+               <h4 className="text-dark1">Facing Issue</h4>
                <button type="submit" className="btn input-btn "title="Quick Shop"
                     data-toggle="modal"
                     data-target="#quickModel">
@@ -269,10 +270,10 @@ class MainHome extends Component {
                 />
         <div className="product-bottom text-center">
                
-        <h3 className="text-dark">Complaints Name</h3>
-               <h3 className="text-dark">Department</h3>
-               <h4 className="text-dark">Ward Number</h4>
-               <h4 className="text-dark">Facing Issue</h4>
+        <h3 className="text-dark1">Complaints Name</h3>
+               <h3 className="text-dark1">Department</h3>
+               <h4 className="text-dark1">Ward Number</h4>
+               <h4 className="text-dark1">Facing Issue</h4>
                <button type="submit" className="btn input-btn "title="Quick Shop"
                     data-toggle="modal"
                     data-target="#quickModel">
@@ -315,10 +316,10 @@ class MainHome extends Component {
                 />
         <div className="product-bottom text-center">
                
-        <h3 className="text-dark">Complaints Name</h3>
-               <h3 className="text-dark">Department</h3>
-               <h4 className="text-dark">Ward Number</h4>
-               <h4 className="text-dark">Facing Issue</h4>
+        <h3 className="text-dark1">Complaints Name</h3>
+               <h3 className="text-dark1">Department</h3>
+               <h4 className="text-dark1">Ward Number</h4>
+               <h4 className="text-dark1">Facing Issue</h4>
                <button type="submit" className="btn input-btn "title="Quick Shop"
                     data-toggle="modal"
                     data-target="#quickModel">
@@ -361,10 +362,10 @@ class MainHome extends Component {
                 />
         <div className="product-bottom text-center">
                
-        <h3 className="text-dark">Complaints Name</h3>
-               <h3 className="text-dark">Department</h3>
-               <h4 className="text-dark">Ward Number</h4>
-               <h4 className="text-dark">Facing Issue</h4>
+        <h3 className="text-dark1">Complaints Name</h3>
+               <h3 className="text-dark1">Department</h3>
+               <h4 className="text-dark1">Ward Number</h4>
+               <h4 className="text-dark1">Facing Issue</h4>
                <button type="submit" className="btn input-btn "title="Quick Shop"
                     data-toggle="modal"
                     data-target="#quickModel">
@@ -407,10 +408,10 @@ class MainHome extends Component {
                 />
         <div className="product-bottom text-center">
                
-        <h3 className="text-dark">Complaints Name</h3>
-               <h3 className="text-dark">Department</h3>
-               <h4 className="text-dark">Ward Number</h4>
-               <h4 className="text-dark">Facing Issue</h4>
+        <h3 className="text-dark1">Complaints Name</h3>
+               <h3 className="text-dark1">Department</h3>
+               <h4 className="text-dark1">Ward Number</h4>
+               <h4 className="text-dark1">Facing Issue</h4>
                <button type="submit" className="btn input-btn "title="Quick Shop"
                     data-toggle="modal"
                     data-target="#quickModel">
@@ -482,6 +483,7 @@ class MainHome extends Component {
           </div>
         </div>
         </section>
+ 
       </Fragment>
     );
   }

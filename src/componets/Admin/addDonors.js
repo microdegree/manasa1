@@ -4,6 +4,7 @@ import "../CSS/donor.css";
 export default class addDonors extends Component {
   render() {
     return (
+      <section id="section2">
       <div className="container itmtop">
         <div className="">
           {/* <div className="jumbotron col-md-6 col-sm-5 " id="login-first"></div> */}
@@ -166,6 +167,7 @@ export default class addDonors extends Component {
           </div>
         </div>
       </div>
+      </section>
     );
   }
 }

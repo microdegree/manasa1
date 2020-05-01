@@ -407,7 +407,7 @@ nav {
 
 .navbar-default .dropdown .dropdown-menu {
   border-top: 0;
-  border-left: 4px solid #dcf028;
+  border-left: 4px solid #ffffff;
   border-right: 0;
   border-bottom: 0;
   -webkit-transform: translate3d(0px, -40px, 0px);
@@ -430,14 +430,14 @@ nav {
 }
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item:hover {
-  background-color: #fff;
-  color: #0f8a9d;
+  background-color: #4b0052;
+  color: #ffffff;
   transition: all 500ms ease;
 }
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item.active {
-  background-color: #ffffff;
-  color: #0f8a9d;
+  background-color: #4b0052;
+  color: #ffffff;
 }
 
 .navbar-default .dropdown:hover .dropdown-menu {
@@ -586,7 +586,7 @@ footer .credits {
   }
 
   .navbar-default .dropdown .dropdown-menu {
-    border-top: 4px solid #2eca6a;
+    border-top: 4px solid #50015a;
     border-left: 0;
     display: block;
     position: absolute;
@@ -863,12 +863,29 @@ footer .credits {
   display: flex;
   width: 100%;
   height: 90vh;
-  background: #640164;
+  background-image: url('https://lh3.googleusercontent.com/proxy/Y_nrelCOgmeCSokxIr3AIo_BZCjtSvF5LPLsE-SpKsC7ljpYf2PfwDFXMUTcKHSM1QXBFw0bi5QW4bFr_m4fW-9Kmmy6wBe7Ykiq');
+  /* background: #640164;
   background: linear-gradient(57deg, hsl(0, 0%, 100%), #640164);
 
-  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%); */
 }
+#section2 {
 
+  background-image: url('https://lh3.googleusercontent.com/proxy/Y_nrelCOgmeCSokxIr3AIo_BZCjtSvF5LPLsE-SpKsC7ljpYf2PfwDFXMUTcKHSM1QXBFw0bi5QW4bFr_m4fW-9Kmmy6wBe7Ykiq');
+  /* background: #640164;
+  background: linear-gradient(57deg, hsl(0, 0%, 100%), #640164);
+
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%); */
+}
+.section2 {
+
+  
+  background-image: url('https://lh3.googleusercontent.com/proxy/Y_nrelCOgmeCSokxIr3AIo_BZCjtSvF5LPLsE-SpKsC7ljpYf2PfwDFXMUTcKHSM1QXBFw0bi5QW4bFr_m4fW-9Kmmy6wBe7Ykiq');
+  /* background: #640164;
+  background: linear-gradient(57deg, hsl(0, 0%, 100%), #640164);
+
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%); */
+}
 .leftside {
   width: 55%;
   height: auto;
@@ -1894,7 +1911,7 @@ input.hidden {
   color: #3ff;
 } */
 .login-second {
-  background: linear-gradient(57deg, #4b012c, #4b012c) !important;
+background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190617/ourmid/pngtree-purple-technology-background-material-image_127273.jpg');
 
   /* background: none; */
   background-size: cover;
@@ -2559,4 +2576,8 @@ button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0;}
 }
 .text-dark1 {
   color: #0e0375!important;
+}
+.purl
+{
+  color: #2d013a!important;
 }

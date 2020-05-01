@@ -24,7 +24,7 @@ class AdminHome extends Component {
             </div>
           </div>
         </section>  */}
-
+ <section id="section2">
 <div className="container itmtop">
         <div className="">
           {/* <div className="jumbotron col-md-6 col-sm-5 " id="login-first"></div> */}
@@ -187,7 +187,7 @@ class AdminHome extends Component {
           </div>
         </div>
       </div>
-
+      </section>
       </Fragment>
     );
   }

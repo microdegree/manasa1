@@ -67,11 +67,22 @@ class Login extends Component {
     }
 
     return (
-      <div className="container logintop ">
-        <div className="">
+      <section id="section1">
+      <div className="container logintop " >
+        <div className="" >
           {/* <div className="jumbotron col-md-6 col-sm-5 " id="login-first"></div> */}
           <div className=" " id="login-second">
             <div className="container">
+            <div className="row">
+              <div className="col-lg-6 wow fadeInLeft animated">
+            <div >
+            <img 
+              src="https://www.ejobspire.com/images/login.png"
+              alt="" style={{ marginTop : '30px' }}
+            />
+          </div>
+          </div>
+          <div className="col-lg-6 wow fadeInUp delay-06s animated">
               <div className="d-flex justify-content-center">
               
                 <div className="card animated bounce" id="login-card">
@@ -167,10 +178,13 @@ class Login extends Component {
                   </div>
                 </div>
               </div>
+              </div>
             </div>
+          </div>
           </div>
         </div>
       </div>
+      </section>
     );
   }
 }
